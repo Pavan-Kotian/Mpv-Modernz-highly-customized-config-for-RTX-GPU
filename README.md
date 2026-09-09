@@ -145,37 +145,6 @@ Some websites may still return errors such as **HTTP 403** because of site restr
 
 For best compatibility, keep yt-dlp and the mpv build reasonably up to date.
 
-## Troubleshooting
-
-### Black screen or video does not render
-
-- Verify that your NVIDIA driver is current.
-- Check the `vulkan-device=` value.
-- Run `mpv.exe --vulkan-device=help` and use the exact detected GPU name.
-- Temporarily remove the `vulkan-device=` line to test automatic device selection.
-
-### Stuttering or dropped frames
-
-- Disable expensive shader profiles.
-- Test playback without interpolation.
-- Check GPU utilization and temperature.
-- Try a lighter scaling/sharpening profile.
-
-### Streaming keeps buffering
-
-- Verify that `C:\mpv-cache` exists or that mpv can create it.
-- Check available disk space.
-- Check network throughput.
-- Remember that a larger cache cannot compensate for an unstable source or server.
-
-### Streaming returns HTTP 403
-
-A 403 is generally a website/CDN/access restriction rather than a ModernZ configuration error. Check yt-dlp compatibility, authentication requirements, and whether the media URL has expired.
-
-### ModernZ interface is missing
-
-Verify that the ModernZ script, configuration, and required icon font are present in the correct `portable_config` directories.
-
 ## Credits
 
 - **Base configuration:** [Zabooby/mpv-config](https://github.com/Zabooby/mpv-config)
