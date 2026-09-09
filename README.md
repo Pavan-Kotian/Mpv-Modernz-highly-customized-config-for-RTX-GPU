@@ -30,16 +30,12 @@ The following screenshots showcase the ModernZ interface, window controls, subti
 
 ## Highlights
 
-- 🎨 **ModernZ** modern, sleek OSC/UI with customized controls
-- 🚀 NVIDIA RTX GPU optimization with **Vulkan + `gpu-next`**
-- ⚡ **NVDEC hardware video decoding**
-- 💾 **10 GB disk cache for streaming** to provide a larger buffer for supported streaming playback
-- 🎬 4K/HDR playback tuning
-- 🖼️ Custom GLSL shader collection for scaling, restoration, sharpening, and image enhancement
-- 📝 White subtitles with a clean black outline
-- 🔊 Custom audio processing and surround/downmix profiles
-- 🖼️ Thumbfast integration for video thumbnail previews
-- 📦 Portable `portable_config` layout
+- 🎨 **ModernZ UI** — modern, customizable playback interface
+- 🚀 **RTX optimized** — Vulkan + `gpu-next` + NVDEC
+- 💾 **10 GB streaming cache** — larger buffering for supported streaming playback
+- 🎬 **4K / HDR playback** — tuned for high-quality video
+- 🖼️ **Advanced shaders** — Anime4K, RAVU-Z, NNEDI3, FSRCNNX, ArtCNN and more
+- 🔊 **Enhanced audio & subtitles** — custom audio processing and clean subtitle rendering
 
 ## Requirements
 
