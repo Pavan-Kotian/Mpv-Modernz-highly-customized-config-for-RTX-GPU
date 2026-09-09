@@ -23,6 +23,19 @@ The goal is to balance **image quality, playback stability, performance, and usa
 - 🖼️ **Advanced shaders** — Anime4K, RAVU-Z, NNEDI3, FSRCNNX, ArtCNN and more
 - 🔊 **Enhanced audio & subtitles** — custom audio processing and clean subtitle rendering
 
+## Screenshots
+
+<table>
+<tr>
+<td><img src="screenshots/modernz-ui.jpg" alt="ModernZ Interface"></td>
+<td><img src="screenshots/modernz-window-controls.jpg" alt="ModernZ Window Controls"></td>
+</tr>
+<tr>
+<td><img src="screenshots/modernz-subtitles.jpg" alt="ModernZ Subtitle Rendering"></td>
+<td><img src="screenshots/modernz-streaming.jpg" alt="ModernZ Streaming UI"></td>
+</tr>
+</table>
+
 ## Requirements
 
 - Windows 10 or Windows 11
