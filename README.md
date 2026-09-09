@@ -28,12 +28,41 @@ The goal is to balance **image quality, playback stability, performance, and usa
 - 🖼️ Thumbfast integration for video thumbnail previews
 - 📦 Portable `portable_config` layout
 
+## ⚠️ Important: Set Your GPU Name
+
+This configuration currently contains a specific NVIDIA GPU name in `mpv.conf`:
+
+```ini
+vulkan-device=NVIDIA GeForce RTX 4050 Laptop GPU
+```
+
+**You must change this value to match the GPU in your own PC or laptop.** If the GPU name does not match, mpv may fail to select the intended Vulkan device.
+
+To find the correct Vulkan GPU name, run:
+
+```text
+mpv.exe --vulkan-device=help
+```
+
+This will display the available Vulkan devices and their names/UUIDs. Copy the appropriate GPU name and replace the `vulkan-device=` value in `portable_config/mpv.conf`.
+
+Example:
+
+```ini
+vulkan-device=YOUR GPU NAME HERE
+```
+
+If you do not want to manually select a GPU, you can also remove/comment out the `vulkan-device=` line and allow mpv to select the first enumerated hardware Vulkan device automatically.
+
+See the [mpv reference manual](https://mpv.io/manual/master/) for the current Vulkan device options.
+
 ## Installation
 
 1. Download the latest package from the repository.
 2. Extract the MPV portable build and place the `portable_config` folder beside `mpv.exe`.
-3. Launch `mpv.exe`.
-4. For NVIDIA RTX hardware, the configuration is designed to use Vulkan/`gpu-next` with NVDEC hardware decoding.
+3. **Change `vulkan-device=` in `mpv.conf` to match your GPU.**
+4. Launch `mpv.exe`.
+5. For NVIDIA RTX hardware, the configuration is designed to use Vulkan/`gpu-next` with NVDEC hardware decoding.
 
 ## Streaming Cache
 
