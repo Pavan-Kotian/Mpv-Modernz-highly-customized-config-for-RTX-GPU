@@ -14,10 +14,6 @@ This configuration has been **optimized and refined with the help of AI**, with 
 
 The goal is to balance **image quality, playback stability, performance, and usability** on NVIDIA RTX hardware.
 
-## Screenshots
-
-The following screenshots showcase the ModernZ interface, window controls, subtitle presentation, and streaming/playback UI.
-
 ## Highlights
 
 - 🎨 **ModernZ UI** — modern, customizable playback interface
