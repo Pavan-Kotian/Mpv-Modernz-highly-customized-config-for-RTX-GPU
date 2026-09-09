@@ -8,6 +8,12 @@ This project is **based on and inspired by [Zabooby's mpv-config](https://github
 
 This version keeps that quality-focused foundation while significantly customizing the setup for a modern NVIDIA RTX system, including a completely refreshed **ModernZ** interface and a large streaming cache.
 
+## AI-assisted optimization
+
+This configuration has also been **optimized and refined with the help of AI**, with extensive tuning of mpv settings, GPU rendering, hardware decoding, streaming/cache behavior, shaders, subtitle rendering, audio processing, key bindings, and ModernZ customization.
+
+The goal is to balance **image quality, playback stability, performance, and usability** on NVIDIA RTX hardware.
+
 ## Highlights
 
 - 🎨 **ModernZ** modern, sleek OSC/UI with customized controls
