@@ -1,1 +1,0 @@
-These screenshots are used by the repository README.
