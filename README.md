@@ -18,16 +18,6 @@ The goal is to balance **image quality, playback stability, performance, and usa
 
 The following screenshots showcase the ModernZ interface, window controls, subtitle presentation, and streaming/playback UI.
 
-> Screenshot files are provided in the repository's `screenshots/` directory.
-
-![ModernZ Interface](screenshots/modernz-ui.jpg)
-
-![ModernZ Window Controls](screenshots/modernz-window-controls.jpg)
-
-![ModernZ Subtitles](screenshots/modernz-subtitles.jpg)
-
-![ModernZ Streaming UI](screenshots/modernz-streaming.jpg)
-
 ## Highlights
 
 - 🎨 **ModernZ UI** — modern, customizable playback interface
